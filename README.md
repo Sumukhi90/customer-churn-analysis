@@ -1,92 +1,89 @@
-# 📊 Customer Churn & Revenue Impact Analysis
+# 📊 Customer Churn & Revenue Risk Intelligence
 
-## 🔍 Overview
+## 🔍 Business Context
 
-This project analyzes customer churn behavior in a telecom dataset to identify key drivers of churn and estimate its impact on revenue. The goal is to help businesses reduce churn and improve customer retention using data-driven insights.
+Customer retention is critical for subscription-based businesses. High churn leads to significant revenue loss and impacts long-term customer lifetime value (CLV).
+
+This project simulates a real-world analytics use case where customer data is analyzed to identify churn drivers, predict at-risk users, and quantify revenue impact.
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Objective
 
-Customer churn directly affects business profitability. This project aims to:
-
-* Identify high-risk customers
-* Analyze churn patterns
+* Identify key factors driving customer churn
+* Segment high-risk customers
 * Predict churn using Machine Learning
-* Estimate revenue loss due to churn
+* Estimate revenue loss and business impact
+* Provide actionable retention strategies
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
-* Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-* SQL (Data querying & analysis)
-* Power BI (Interactive dashboards)
-* Excel (Pivot tables, data validation)
-
----
-
-## 📈 Key Insights
-
-* 📌 Overall churn rate: **~26%**
-* 📌 Customers with **month-to-month contracts churn 2x more**
-* 📌 High monthly charges correlate with higher churn
-* 📌 Customers in first **12 months are most at risk**
-* 📌 Estimated annual revenue loss due to churn is significant
+* Python (Pandas, NumPy, Scikit-learn)
+* SQL (Customer segmentation queries)
+* Power BI (Business dashboards)
+* Excel (Data validation & KPI tracking)
 
 ---
 
-## 🤖 Machine Learning Model
+## 📈 Key Business Insights
 
-* Model Used: Logistic Regression
-* Accuracy: ~80% (approx)
-* Features: tenure, monthly charges, contract type
-* Output: Churn prediction (Yes/No)
-
----
-
-## 📊 Power BI Dashboard
-
-The interactive dashboard includes:
-
-* Churn distribution
-* Revenue impact analysis
-* Customer segmentation
-* KPI tracking
-
-📸 Dashboard Preview:
-(Add screenshots here)
+* ~26% of customers are at risk of churn
+* Month-to-month customers show **highest churn probability (~2x higher)**
+* High monthly charges correlate with increased churn risk
+* New customers (0–12 months tenure) are most vulnerable
+* Estimated revenue loss due to churn is significant and recurring
 
 ---
 
-## 🧾 SQL Analysis
+## 🤖 Predictive Analytics
 
-Sample queries used:
+* Model: Logistic Regression
+* Accuracy: ~80%
+* Output: Identifies high-risk customers before churn occurs
 
-* Identify high churn segments
-* Revenue contribution by customer type
+---
+
+## 📊 Dashboard Highlights (Power BI)
+
+* Churn Rate KPI
+* Revenue Loss Tracker
+* Customer Segmentation (by tenure, contract type)
 * Monthly churn trends
+
+---
+
+## 💡 Business Recommendations
+
+* Introduce loyalty incentives for new customers
+* Offer discounts for long-term contracts
+* Monitor high-value customers with rising monthly charges
+* Build proactive retention strategies using predictive insights
 
 ---
 
 ## 📌 Business Impact
 
-* Helps companies identify **high-risk customers early**
-* Supports **data-driven retention strategies**
-* Improves **revenue forecasting and planning**
+This project demonstrates how data analytics can:
+
+* Reduce churn through early identification
+* Improve customer retention strategies
+* Minimize revenue loss
+* Support data-driven decision making
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Scope
 
-* Advanced ML models (Random Forest, XGBoost)
-* Deployment as a web dashboard
-* Real-time churn prediction
+* Customer Lifetime Value (CLV) prediction
+* Real-time churn monitoring system
+* Integration with CRM systems
 
 ---
 
 ## 👩‍💻 Author
 
 Sumukhi Pandey
-LLM Intern | Data Analytics Enthusiast
+LLM Intern | Data & Business Analytics
 
